@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <script src="dist/tinyTypewriter.min.js"></script>
+    <link type="text/css" rel="stylesheet" href="styles/style.css">
+    <title>tinyTypewriter</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <h1>tiny<span id="typewriter">Typewriter.js</span></h1>
+      <p>tinyTypewriter.js is just a small (1kb) piece of vanilla javascript that generates a typewriter effect.</p>
+      <h2>How to use</h2>
+      <h4>HTML</h4>
+      <pre>
+&lt;head&gt;
+  &lt;script src="tinyTypewriter.js"&gt;&lt;/script&gt;
+&lt;/head&gt;
+...
+&lt;h1&gt;tiny&lt;span id="typewritter"&gt;Your fallback text&lt;/span&gt;&lt;/h1&gt;</pre>
+      <h4>JS</h4>
+      <pre>
+const typewritter = document.querySelector("#typewriter");
+tinyTypewriter(typewritter, {
+  items: ['Size', 'Typewriter.js']  
+});</pre>
+      <br>
+      <h2>Options</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Option</th>
+            <th>Default</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><code>items</code></td>
+            <td><code>[]</code></td>
+          </tr>
+          <tr>
+            <td><code>typeSpeed</code></td>
+            <td><code>500</code></td>
+          </tr>
+          <tr>
+            <td><code>deleteSpeed</code></td>
+            <td><code>50</code></td>
+          </tr>
+          <tr>
+            <td><code>delayBetweenItems</code></td>
+            <td><code>2000</code></td>
+          </tr>
+          <tr>
+            <td><code>loop</code></td>
+            <td><code>true</code></td>
+          </tr>
+          <tr>
+            <td><code>startDelay</code></td>
+            <td><code>0</code></td>
+          </tr>
+          <tr>
+            <td><code>startsAtIndex</code></td>
+            <td><code>0</code></td>
+          </tr>
+          <tr>
+            <td><code>cursor</code></td>
+            <td><code>true</code></td>
+          </tr>
+          <tr>
+            <td><code>cursorChar</code></td>
+            <td><code>"|"</code></td>
+          </tr>
+          <tr>
+            <td><code>cursorCharBlinkSpeed</code></td>
+            <td><code>500</code></td>
+          </tr>
+          <tr>
+            <td><code>cursorCharBlinkTransitionSpeed</code></td>
+            <td><code>0.15</code></td>
+          </tr>
+          <tr>
+            <td><code>startOnView</code></td>
+            <td><code>true</code></td>
+          </tr>
+          <tr>
+            <td><code>startOnViewOffset</code></td>
+            <td><code>0</code></td>
+          </tr>
+        </tbody>
+      </table>
+        <pre>
+tinyTypewriter(el, {
+  items: ['Size', 'Typewritter.js'],
+  typeSpeed: 100,
+  deleteSpeed: 50,
+  delayBetweenItems: 2000,
+  loop: true,
+  startDelay: 0,
+  startsAtIndex: 0,
+  cursor: true,
+  cursorChar: "|",
+  cursorCharBlinkSpeed: 500,
+  cursorCharBlinkTransitionSpeed: 0.15,
+  startOnView: true,
+  startOnViewOffset: 0,
+});</pre>
+    <br>
+    </div>
+
+  <footer>
+    <div class="wrapper">
+      Cesar Level
+    </div> 
+  </footer>
+  </body>
+  <script>
+    const typewriter = document.querySelector("#typewriter");
+    const year = new Date().getFullYear();
+    const footerText = `Cesar Level, ${year}`;
+    tinyTypewriter(typewriter, {
+      items: ['Size', 'Typewriter.js']
+    });
+    document.querySelector('footer > .wrapper').innerHTML = footerText;
+  </script>
+</html>

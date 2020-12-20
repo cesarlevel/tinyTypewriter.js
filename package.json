@@ -1,0 +1,23 @@
+{
+  "name": "tiny-typewriter",
+  "version": "1.0.0",
+  "description": "tinyTypewriter.js is just a small (1kb) piece of vanilla javascript that generates a typewriter effect.",
+  "main": "tinyTypewriter.js",
+  "scripts": {
+    "build": "rollup -c",
+    "build:watch": "rollup -c --watch"
+  },
+  "keywords": ["javascript", "typewriter", "effect"],
+  "author": "Cesar Level",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.10.4",
+    "@babel/preset-env": "^7.10.4",
+    "@rollup/plugin-babel": "^5.1.0",
+    "@rollup/plugin-commonjs": "^14.0.0",
+    "@rollup/plugin-node-resolve": "^8.4.0",
+    "eslint": "^7.16.0",
+    "rollup": "^2.35.1",
+    "rollup-plugin-terser": "^7.0.2"
+  }
+}

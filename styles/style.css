@@ -1,0 +1,138 @@
+html,
+.root {
+  font-size: 22px;
+  line-height: 40px;
+}
+body,
+.article {
+  font-family: Cambria, "Hoefler Text", Utopia, "Liberation Serif",
+    "Nimbus Roman No9 L Regular", Times, "Times New Roman", serif;
+  font-size: 1rem;
+  line-height: 1.5181818rem;
+  margin: auto;
+}
+.wrapper {
+  max-width: 560px;
+  margin: 0 auto;
+}
+h1,
+.h1 {
+  font-size: 2.3636364rem;
+  line-height: 3.6363636rem;
+  margin-top: 2.8181818rem;
+  margin-bottom: 0.5rem;
+}
+h2,
+.h2 {
+  font-size: 1.7727273rem;
+  line-height: 1.8181818rem;
+  margin-top: 2.4rem;
+  margin-bottom: 1.8181818rem;
+}
+h3,
+.h3 {
+  font-size: 1.3181818rem;
+  line-height: 1.8181818rem;
+  margin-top: 1.8181818rem;
+  margin-bottom: 0rem;
+}
+h4,
+.h4 {
+  font-size: 1rem;
+  line-height: 1.8181818rem;
+  margin-top: 1.8181818rem;
+  margin-bottom: 0rem;
+}
+h5,
+.h5 {
+  font-size: 1rem;
+  line-height: 1.8181818rem;
+  margin-top: 1.8181818rem;
+  margin-bottom: 0rem;
+}
+p,
+ul,
+ol,
+pre,
+table,
+blockquote {
+  margin-top: 0rem;
+  margin-bottom: 1.8181818rem;
+}
+ul ul,
+ol ol,
+ul ol,
+ol ul {
+  margin-top: 0rem;
+  margin-bottom: 0rem;
+}
+
+/* Let's make sure all's aligned */
+hr,
+.hr {
+  border: 1px solid;
+  margin: -1px 0;
+}
+a,
+b,
+i,
+strong,
+em,
+small,
+code {
+  line-height: 0;
+}
+sub,
+sup {
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+sup {
+  top: -0.5em;
+}
+sub {
+  bottom: -0.25em;
+}
+pre,
+code {
+  font-size: calc(1rem - 40%);
+  line-height: calc(1rem - 10%);
+  word-wrap: break-word;
+  margin: 0;
+  padding: 0.44rem 0.5rem 0.5rem;
+  border: 2px solid;
+  white-space: pre-wrap;
+  background: #ffffff;
+  box-shadow: 8px 8px 0 -2px black;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+td {
+  border-bottom: 1px solid;
+}
+tr:last-child td {
+  border-bottom: none;
+}
+td pre,
+td code {
+  font-size: calc(1rem - 20%);
+  border: none;
+  padding: 0;
+  box-shadow: none;
+}
+th {
+  text-align: left;
+}
+
+footer {
+  width: 100%;
+  background-color: black;
+  margin-top: 80px;
+  padding: 12px 0 24px;
+  box-sizing: border-box;
+  color: white;
+  font-size: 14px;
+}
