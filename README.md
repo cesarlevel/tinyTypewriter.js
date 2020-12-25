@@ -41,6 +41,7 @@ npm install tiny-typewriter
 | startOnView | true |
 | startOnViewOffset | 0 |
 
+
 ```
 tinyTypewriter(el, {
   items: ['Size', 'Typewritter.js'],
