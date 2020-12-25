@@ -2,14 +2,15 @@
   "name": "tiny-typewriter",
   "version": "1.0.0",
   "description": "tinyTypewriter.js is just a small (1kb) piece of vanilla javascript that generates a typewriter effect.",
-  "main": "tinyTypewriter.js",
+  "main": "dist/tinyTypewriter.js",
+  "unpkg": "dist/tinyTypewriter.min.js",
   "scripts": {
     "build": "rollup -c",
     "build:watch": "rollup -c --watch"
   },
   "keywords": ["javascript", "typewriter", "effect"],
   "author": "Cesar Level",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.10.4",
     "@babel/preset-env": "^7.10.4",
