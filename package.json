@@ -1,6 +1,6 @@
 {
   "name": "tiny-typewriter",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "tinyTypewriter.js is just a small (1kb) piece of vanilla javascript that generates a typewriter effect.",
   "main": "dist/tinyTypewriter.js",
   "unpkg": "dist/tinyTypewriter.min.js",
