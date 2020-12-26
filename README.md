@@ -4,15 +4,14 @@ tinyTypewriter.js is just a small (1kb) piece of vanilla javascript that generat
 
 ## How to use
 
-### HTML
+### CDN
 ```
 <head>
-  <script src="tinyTypewriter.js"></script>
+  <script src="https://unpkg.com/browse/tiny-typewriter@latest/dist/tinyTypewriter.min.js"></script>
 </head>;
 ...
 <h1>tiny<span id="typewritter">Your fallback text</span></h1>
 ```
-### JS
 ```
 const typewritter = document.querySelector("#typewriter");
 tinyTypewriter(typewritter, {
@@ -20,7 +19,7 @@ tinyTypewriter(typewritter, {
 });
 ```
 
-### npm
+### NPM
 ```
 npm install tiny-typewriter
 ```
@@ -41,7 +40,7 @@ npm install tiny-typewriter
 | startOnView | true |
 | startOnViewOffset | 0 |
 
-
+### Example
 ```
 tinyTypewriter(el, {
   items: ['Size', 'Typewritter.js'],
