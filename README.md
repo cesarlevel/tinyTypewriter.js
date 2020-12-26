@@ -24,7 +24,7 @@ tinyTypewriter(typewritter, {
 npm install tiny-typewriter
 ```
 ```javascript
-import tinyTypewriter from 'tiny-typewriter/dist/tinyTypewriter';
+import tinyTypewriter from 'tiny-typewriter';
 
 const typewritter = document.querySelector("#typewriter");
 tinyTypewriter(typewritter, {
