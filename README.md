@@ -42,7 +42,7 @@ tinyTypewriter(typewritter, {
 | loop | true |
 | startDelay | 0 |
 | startsAtIndex | 0 |
-| cursorChar | "|" |
+| cursorChar | "\|" |
 | cursorCharBlinkSpeed | 500 |
 | cursorCharBlinkTransitionSpeed | 0.15 |
 | startOnView | true |
