@@ -12,15 +12,26 @@
       <h1>tiny<span id="typewriter">Typewriter.js</span></h1>
       <p>tinyTypewriter.js is just a small (1kb) piece of vanilla javascript that generates a typewriter effect.</p>
       <h2>How to use</h2>
-      <h4>HTML</h4>
+      <h4>CDN</h4>
       <pre>
 &lt;head&gt;
-  &lt;script src="tinyTypewriter.js"&gt;&lt;/script&gt;
+  &lt;script src="https://unpkg.com/browse/tiny-typewriter@latest/dist/tinyTypewriter.min.js"&gt;&lt;/script&gt;
 &lt;/head&gt;
 ...
 &lt;h1&gt;tiny&lt;span id="typewritter"&gt;Your fallback text&lt;/span&gt;&lt;/h1&gt;</pre>
-      <h4>JS</h4>
+      <br>
       <pre>
+const typewritter = document.querySelector("#typewriter");
+tinyTypewriter(typewritter, {
+  items: ['Size', 'Typewriter.js']  
+});</pre>
+      <h4>NPM</h4>
+      <pre>
+npm install tiny-typewriter</pre>
+        <br>
+      <pre>
+import tinyTypewriter from 'tiny-typewriter';
+
 const typewritter = document.querySelector("#typewriter");
 tinyTypewriter(typewritter, {
   items: ['Size', 'Typewriter.js']  
