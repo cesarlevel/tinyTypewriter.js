@@ -1,12 +1,17 @@
 {
   "name": "tiny-typewriter",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "tinyTypewriter.js is just a small (1kb) piece of vanilla javascript that generates a typewriter effect.",
   "main": "dist/tinyTypewriter.js",
   "unpkg": "dist/tinyTypewriter.min.js",
   "scripts": {
     "build": "rollup -c",
     "build:watch": "rollup -c --watch"
+  },
+  "homepage": "http://www.cesarlevel.com/tinytypewriterjs",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cesarlevel/tinyTypewriter.js.git"
   },
   "keywords": ["javascript", "typewriter", "effect"],
   "author": "Cesar Level",
