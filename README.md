@@ -7,8 +7,8 @@ tinyTypewriter.js is just a small (1kb) piece of vanilla javascript that generat
 ### CDN
 ```HTML
 <head>
-  <script src="https://unpkg.com/browse/tiny-typewriter@latest/dist/tinyTypewriter.min.js"></script>
-</head>;
+  <script src="https://unpkg.com/tiny-typewriter@latest/dist/tinyTypewriter.min.js"></script>
+</head>
 ...
 <h1>tiny<span id="typewritter">Your fallback text</span></h1>
 ```
